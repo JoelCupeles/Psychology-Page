@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Set background color for the body */
+body {
+    background-color: #d9dcd6;
+}
+/* Header section styles */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* H1 styles in header section */
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+/* SEO text color in h1 */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Styles for the nav in the header section */
+/* Change div to navigation bar (nav) in header section */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Styles for the unordered list in the nav in the header section */
+.header nav ul {
+    list-style-type: none;
+}
+/* Styles for the list items in the unordered list in the nav in the header section */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Styles for the links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Styles for the paragraphs */
+p {
+    font-size: 16px;
+}
+/* Hero section styles */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Psychology-Page/Assets/Psychology_Courses.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Styles for floating left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Styles for floating right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Styles for the content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Changes to css file to match the HTML file order.*/ 
+.cognitive-behavioral-therapy{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.behavior-modification {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.positive-psychology {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.cognitive-behavioral-therapy img {
+    max-height: 200px;
+}
+
+.behavior-modification img {
+    max-height: 200px;
+}
+
+.positive-psychology img {
+    max-height: 200px;
+}
+
+.cognitive-behavioral-therapy h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.behavior-modification h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.positive-psychology h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Styles for the benefits section */
+.benefits {
+    margin-right: 20px;
+    padding: 48px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-positive-thinking {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-stress-management {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-self-esteem {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-positive-thinking h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-stress-management h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-self-esteem h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-positive-thinking img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-stress-management img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-self-esteem img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Styles for the footer section */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
